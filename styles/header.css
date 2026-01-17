@@ -1,0 +1,243 @@
+
+.header {
+  height: 55px;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  z-index: 100;
+
+
+}
+
+
+
+
+.left-section {
+  margin-right: 70px;
+  display: flex;
+  align-items: center;
+  
+}
+
+
+.hamburger-button {
+  background-color: black;
+  border: none;
+  color: white;
+  font-family: Roboto, Arial;
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+  height: 35px;
+  width: 35px;
+  padding-right: 12px;
+  margin-right: 13px;
+  margin-left: 15px;
+  transition: .15;
+  justify-content: center;
+
+}
+.hamburger-button:hover {
+  background-color: rgb(65,64,64);
+  cursor: pointer;
+}
+
+.hamburger-icon {
+   height: 24px;
+  margin-top: 1px;
+  margin-left: 6px;
+}
+.youtube-logo {
+  height: 21px;
+  cursor: pointer;
+}
+
+
+.middle-section {
+
+  max-width: 500px;
+  display: flex;
+  flex: 1;
+  align-items: center;
+ 
+  
+
+}
+
+.bar-and-button {
+  display: flex;
+  flex: 1;
+  position: relative;
+
+ 
+}
+.search-bar {
+  display: flex;
+  flex: 1;
+  height: 30px;
+  border-radius: 15px;
+  border-width: 1px;
+  border-color: rgb(56, 56, 56);
+  border-style:solid;
+  background-color: black;
+  padding-left: 10px;
+  font-size: 16px;
+  color: white;
+  
+
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+
+
+}
+
+.search-button {
+  height: 33px;
+  width: 58px;
+  position: absolute;
+  right: 0px;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: rgb(37, 37, 37);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(56,56,56);
+  
+}
+
+
+
+.search-button:hover {
+  cursor: pointer;
+}
+
+.search-icon {
+  height: 30px;
+
+}
+.voice-search-button {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  margin-left: 12px;
+  border: none;
+  background-color: rgb(37, 37, 37);
+  transition: .15;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.voice-search-button .tooltip, .notis-button .tooltip {
+  position: absolute;
+  font-family: Roboto, Arial;
+  color: white;
+  background-color: rgb(65,64,64);
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  bottom: -30px;
+  opacity: 0;
+  transition: opacity .15s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+
+.voice-search-button:hover .tooltip, .notis-button:hover .tooltip {
+  opacity: .8;
+}
+
+.voice-search-button:hover {
+  background-color: rgb(65,64,64);
+  cursor: pointer;
+}
+.voice-icon {
+  height: 22px;
+  margin-top: 4px;
+  
+
+
+}
+
+.right-section {
+  
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin-left: 35px;
+}
+
+.create-button {
+  background-color: rgb(37, 37, 37);
+  border: none;
+  color: white;
+  font-family: Roboto, Arial;
+  display: flex;
+  align-items: center;
+  border-radius: 18px;
+  height: 35px;
+  padding-right: 12px;
+  margin-right: 5px;
+  transition: .15
+
+}
+
+.create-button:hover {
+  background-color: rgb(65, 64, 64);
+  cursor: pointer;
+}
+.create-icon {
+  margin-right: 4px;
+}
+
+.notis-button {
+  height: 35px;
+  width: 35px;
+  border-radius: 20px;
+  border: none;
+  background-color: black;
+  transition: .15;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.notis-button:hover {
+  cursor: pointer;
+  background-color: rgb(65, 64, 64);
+}
+
+.profile-button {
+  background-color: black;
+  border: none;
+  margin-left: 15px;
+
+}
+
+.profile-icon {
+   height: 35px;
+  width: 35px;
+  border: none;
+  border-radius: 20px;
+  padding: none;
+}
+
+.profile-button:hover {
+  cursor: pointer;
+}

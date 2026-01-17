@@ -1,0 +1,495 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Youtube.com Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <button class="hamburger-button">
+          <img class="hamburger-icon" src="icons/hamburger.svg" alt="" />
+        </button>
+        <img
+          class="youtube-logo"
+          src="icons/YouTube_dark_logo_2017.svg"
+          alt=""
+        />
+      </div>
+      <div class="middle-section">
+        <div class="bar-and-button">
+          <input class="search-bar" type="text" placeholder="Search" />
+          <button class="search-button">
+            <img class="search-icon" src="icons/search_magnifier.svg" alt="" />
+          </button>
+        </div>
+
+        <button class="voice-search-button">
+          <img class="voice-icon" src="icons/mic.svg" alt="" />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <button class="create-button">
+          <img class="create-icon" src="icons/Create.svg" alt="" />Create
+        </button>
+        <button class="notis-button">
+          <img class="notis-icon" src="icons/notis.svg" alt="" />
+          <div class="tooltip">Notifications</div>
+        </button>
+        <button class="profile-button">
+          <img
+            class="profile-icon"
+            src="channel-pictures/mychannel.jpg"
+            alt=""
+          />
+        </button>
+      </div>
+    </div>
+
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg" alt="" />
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img class="shorts-icon" src="icons/frshorts.png" alt="" />
+        <div>Shorts</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg" alt="" />
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/personalaccount.svg" alt="" />
+        <div>You</div>
+      </div>
+    </div>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=HTXTVfBCeSY">
+            <img
+              class="thumbnail"
+              src="thumbnails/man-gets-rejected.avif"
+              alt="Man gets rejected by 22 yo CEO"
+          /></a>
+
+          <div class="video-time">7:00</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/jomatech.jpg"
+              alt="Jomatech profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=HTXTVfBCeSY"
+              ><p class="video-title">I Got Rejected By 22-Year old CEO</p>
+            </a>
+            <p class="video-author">Joma Tech</p>
+            <p class="video-stats">4.2M views &middot; 5 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=3mRvCF4qyTA"
+            ><img
+              class="thumbnail"
+              src="thumbnails/professor.avif"
+              alt="stanford professor reacts to student projects"
+          /></a>
+
+          <div class="video-time">9:03</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/codeinplace.jpg"
+              alt="Code in Place profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=3mRvCF4qyTA"
+            >
+              <p class="video-title">
+                Stanford Professor Reacts To Student coding Projects
+              </p>
+            </a>
+
+            <p class="video-author">Code in Place</p>
+            <p class="video-stats">995k views &middot; 9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=aSg1RfCyGJI"
+            ><img
+              class="thumbnail"
+              src="thumbnails/before9am.avif"
+              alt="managing your time thumbnail"
+          /></a>
+
+          <div class="video-time">10:17</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/Kai.jpg"
+              alt="Jomatech profile picture"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=aSg1RfCyGJI"
+            >
+              <p class="video-title">
+                seriously, i'm begging you to manage your time before it's too
+                late.
+              </p></a
+            >
+
+            <p class="video-author">Kai Notebook</p>
+            <p class="video-stats">316K views &middot; 1 month ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=h4qYFqoGWec"
+            ><img
+              class="thumbnail"
+              src="thumbnails/clubscene.avif"
+              alt="club scene from the social network"
+          /></a>
+
+          <div class="video-time">4:06</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/NOW-PLAYING.jpg"
+              alt="NOW PLAYING channel picture"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=h4qYFqoGWec"
+            >
+              <p class="video-title">Club Scene | The Social Network</p></a
+            >
+
+            <p class="video-author">NOW PLAYING</p>
+            <p class="video-stats">223k views &middot; 3 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=MYW0TgV67RE">
+            <img
+              class="thumbnail"
+              src="thumbnails/grind.avif"
+              alt="Lock In Music"
+          /></a>
+
+          <div class="video-time">&#9833; 1:46:40</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/MM.jpg"
+              alt="MM channel"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=MYW0TgV67RE"
+            >
+              <p class="video-title">
+                Work Music for Serious Grind | Stay Aligned
+              </p></a
+            >
+
+            <p class="video-author">MM</p>
+            <p class="video-stats">1.3M views &middot; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=1qfcWSZAHvM"
+            ><img
+              class="thumbnail"
+              src="thumbnails/markzuckinyc.avif"
+              alt="Mark Zuckerburg presenting at YC"
+          /></a>
+
+          <div class="video-time">1:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/bigbuzz.jpg"
+              alt="Big Buzz"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=1qfcWSZAHvM"
+            >
+              <p class="video-title">
+                From Business Insider: Zuckerberg On The Social Network
+              </p></a
+            >
+
+            <p class="video-author">Big Buzz</p>
+            <p class="video-stats">1.2M views &middot; 15 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=Rb8e1H4hMFQ"
+            ><img
+              class="thumbnail"
+              src="thumbnails/csstudents.avif"
+              alt="Mark Zuckerburg presenting at YC"
+          /></a>
+
+          <div class="video-time">8:50</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <a href="https://www.youtube.com/watch?v=Rb8e1H4hMFQ"
+              ><img
+                class="profile-picture"
+                src="channel-pictures/lattice.jpg"
+                alt="Big Buzz"
+            /></a>
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=Rb8e1H4hMFQ"
+            >
+              <p class="video-title">
+                Computer science students need to hear this
+              </p></a
+            >
+
+            <p class="video-author">Lattice</p>
+            <p class="video-stats">442k views &middot; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=5wT0Py4yfkk&t=1s"
+            ><img
+              class="thumbnail"
+              src="thumbnails/b4test.avif"
+              alt="Mark Zuckerburg presenting at YC"
+          /></a>
+
+          <div class="video-time">8:51</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/collin.jpg"
+              alt="Big Buzz"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=5wT0Py4yfkk&t=1s"
+            >
+              <p class="video-title">
+                Seriously, please watch this before your next exam
+              </p></a
+            >
+
+            <p class="video-author">Collin The Chad</p>
+            <p class="video-stats">4.1M views &middot; 10 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=d9vy91veYbU&t=30s"
+            ><img
+              class="thumbnail"
+              src="thumbnails/maybe.avif"
+              alt="Mark Zuckerburg presenting at YC"
+          /></a>
+
+          <div class="video-time">&#9833; 1:10:10</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/sigma.jpg"
+              alt="Big Buzz"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=d9vy91veYbU&t=30s"
+            >
+              <p class="video-title">maybe in another life</p></a
+            >
+
+            <p class="video-author">wish you were here.</p>
+            <p class="video-stats">2.1M views &middot; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=JqxzLUE6pP8"
+            ><img
+              class="thumbnail"
+              src="thumbnails/peterthiel.avif"
+              alt="Mark Zuckerburg presenting at YC"
+          /></a>
+
+          <div class="video-time">16:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/Forbes.jpg"
+              alt="Big Buzz"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=JqxzLUE6pP8"
+            >
+              <p class="video-title">
+                How To Build The Next Billion Dollar Startup | Forbes
+              </p></a
+            >
+
+            <p class="video-author">Forbes</p>
+            <p class="video-stats">957K views &middot; 11 years ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=A953td1sKS8"
+            ><img
+              class="thumbnail"
+              src="thumbnails/project.avif"
+              alt="Mark Zuckerburg presenting at YC"
+          /></a>
+
+          <div class="video-time">&#9833; 1:00:45</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/mundi.jpg"
+              alt="Big Buzz"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=A953td1sKS8"
+            >
+              <p class="video-title">
+                𝐘𝐨𝐮 𝐚𝐫𝐞 𝐛𝐮𝐢𝐥𝐝𝐢𝐧𝐠 𝐮𝐩 𝐲𝐨𝐮𝐫 𝐩𝐫𝐨𝐣𝐞𝐜𝐭 | 𝐓𝐡𝐞 𝐒𝐨𝐜𝐢𝐚𝐥 𝐍𝐞𝐭𝐰𝐨𝐫𝐤 𝐒𝐨𝐮𝐧𝐝𝐭𝐫𝐚𝐜𝐤
+              </p></a
+            >
+
+            <p class="video-author">𝐌𝐔𝐍𝐃𝐈 𝐎𝐏𝐔𝐒</p>
+            <p class="video-stats">734K views &middot; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=3teYnep1oHA&list=LL&index=2"
+            ><img
+              class="thumbnail"
+              src="thumbnails/wolf.avif"
+              alt="Mark Zuckerburg presenting at YC"
+          /></a>
+
+          <div class="video-time">4:23</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/stevie.jpg"
+              alt="Big Buzz"
+            />
+          </div>
+          <div class="video-info">
+            <a
+              class="video-title-text"
+              href="https://www.youtube.com/watch?v=3teYnep1oHA&list=LL&index=2"
+            >
+              <p class="video-title">
+                So It's Wolf of Wall Street, But For Getting Laid
+              </p></a
+            >
+
+            <p class="video-author">Stevie Emerson</p>
+            <p class="video-stats">5.5M views &middot; 6 years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
